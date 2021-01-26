@@ -31,7 +31,16 @@ main code start here
       }
    }
 }
-
+#header_top.fix{
+   position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+    .header_top_container{
+      box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    }
+}
 
 #header_search_area{
    padding: 10px 0px 10px 0px;
@@ -177,6 +186,30 @@ main code start here
                   font-weight: 600;
                   font-size: 17px;
                   color: #5B5E60;
+               }
+            }
+            .artist_song{
+               margin-top: 13px;
+               ul{
+                  li{
+                     display: inline-block;
+                     background: #ddd;
+                     font-weight: 500;
+                     font-size: 13px;
+                     padding: 3px 20px;
+                     border-radius: 30px;
+                     margin-right: 5px;
+                     transition: 0.4s;
+                     &:hover{
+                        background: #92D050;
+                        color: #fff;
+                     }
+                  }
+               }
+            }
+            .artis_country{
+               h4{
+                  font-size: 14px;
                }
             }
          }

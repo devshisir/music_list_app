@@ -90,6 +90,9 @@
     #filter_name .filter_name_container p {
         font-size: 14px;
     }
+    #music_list_main_area .music_list_main_area_container .single_music_item .content_box .artist_song ul li {
+        margin-bottom: 9px;
+    }
 }
 
 
